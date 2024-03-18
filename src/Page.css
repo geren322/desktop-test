@@ -1,0 +1,83 @@
+.page-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.page-title {
+    color: #333;
+    font-size: 24px;
+}
+
+.page-text {
+    color: #666;
+    font-size: 16px;
+}
+
+.item-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+.item-text {
+    margin-top: 10px;
+}
+
+.App-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.App-header .app-header-title {
+    font-size: 35px;
+    margin: 0;
+    color: white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #61DAFB;
+}
+
+nav button.active {
+    background-color: #61DAFB;
+}
+
+.page2 nav button:hover,
+.page2 nav button.active {
+    background-color: #2f3241;
+}
+
+.page1 .App-header {
+    background-color: #2f3241;
+}
+
+.page2 .App-header {
+    background-color: #61DAFB;
+}
+
+
